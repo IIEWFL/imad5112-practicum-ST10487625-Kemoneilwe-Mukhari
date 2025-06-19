@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pngtree"
+    tools:context=".DetailViewActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp"
+        >
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Details Screen"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="15dp"/>
+
+        <TextView
+            android:id="@+id/tvSongDetails"
+            android:layout_width="match_parent"
+            android:layout_height="215dp"
+            android:text="Songs will display here"
+            android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvAverageRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Average Rating:"
+        android:textStyle="bold"
+        android:layout_marginBottom="15dp"/>
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="219dp"
+            android:layout_height="wrap_content"
+            android:text="Return to Main Screen" />
+    </LinearLayout>
+</ScrollView>

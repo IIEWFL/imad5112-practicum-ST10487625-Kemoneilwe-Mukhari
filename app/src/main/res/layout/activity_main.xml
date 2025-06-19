@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="@drawable/pngtree"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the Music App"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btnAddSong"
+        android:layout_width="267dp"
+        android:layout_height="wrap_content"
+        android:text="Add to playlist" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+
+        <Button
+            android:id="@+id/btnViewDetails"
+            android:layout_width="152dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="45dp"
+            android:text="View Playlist" />
+
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="135dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="45dp"
+            android:text="Exit" />
+
+    </LinearLayout>
+
+</LinearLayout>
